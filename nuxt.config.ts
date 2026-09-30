@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     ]
   },
   app:{
+    baseURL: '/sohel-portfolio/',
     head:{
       title:'Sohel Akram',
       link:[
