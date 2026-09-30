@@ -1,0 +1,168 @@
+@import "tailwindcss";
+:root {
+  --primary: #0D2B63;
+}
+
+.primary-light{	
+color:#1B3F82	
+}
+
+.skill-group-labels {
+color:#B8893C
+}
+
+.site-background {
+background-color:#F7F8FA	
+}
+
+.card-background {
+background-color:#FFFFFF	
+}
+
+.primary-text {
+color:#12203F	
+}
+
+.secondary-text {
+color:#5B6478	
+}
+
+.border-color {
+ color:#E2E5EC
+}
+
+.primary-button {
+    background-color:#0D2B63;
+    color:#ffffff;
+    border-radius: 5px;
+    width: 100%;
+    padding:10px 0px 10px 0px
+}
+
+.secondary-button {
+    background-color:#ffffff;
+    color:#0D2B63;
+    border-radius: 5px;
+    width: 100%;
+    padding:10px 0px 10px 0px;
+    border:1px solid #0D2B63;
+}
+
+
+.primary-card {
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding:10px 0px 10px 0px;
+    margin:5px 15px 5px 15px;
+    border:1px solid #E2E5EC;
+
+}
+
+.secondary-card {
+    background-color:#F7F8FA;
+    color:#5B6478;
+    border-radius: 5px;
+    margin:1px;
+    border:1px solid #F7F8FA;
+}
+
+.experience-section {
+    padding: 2rem 1rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-title {
+    font-size: clamp(2.3rem, 3vw, 3.2rem);
+    line-height: 1.1;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0;
+}
+
+.experience-subtitle {
+    margin: 0.85rem 0 2rem;
+    font-size: 1.05rem;
+    color: #5B6478;
+    font-weight: 400;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.experience-dot {
+    width: 0.9rem;
+    height: 0.9rem;
+    min-width: 0.9rem;
+    border-radius: 50%;
+    background-color: var(--primary);
+    margin-top: 0.7rem;
+    box-shadow: 0 0 0 0.15rem rgba(13, 43, 99, 0.08);
+}
+
+.experience-content {
+    flex: 1;
+}
+
+.experience-role {
+    margin: 0;
+    font-size: clamp(1.45rem, 2vw, 2.15rem);
+    line-height: 1.2;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.experience-company {
+    margin-top: 0.3rem;
+    font-size: 1.15rem;
+    color: #5B6478;
+    font-weight: 500;
+}
+
+.experience-period {
+    margin-top: 0.45rem;
+    font-size: 1rem;
+    color: #5B6478;
+    font-weight: 400;
+}
+
+.experience-description {
+    margin-top: 1rem;
+    max-width: 940px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #5B6478;
+}
+
+@media (max-width: 640px) {
+    .experience-section {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .experience-item {
+        gap: 0.75rem;
+    }
+
+    .experience-role {
+        font-size: 1.5rem;
+    }
+
+    .experience-company {
+        font-size: 1.05rem;
+    }
+
+    .experience-period,
+    .experience-description {
+        font-size: 0.96rem;
+    }
+}
