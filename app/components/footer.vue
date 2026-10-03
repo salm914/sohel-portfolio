@@ -1,6 +1,6 @@
 <template>
   <footer id="contact" class="bg-[#0D2B63] text-white">
-    <div class="mx-auto w-[92%] max-w-[1200px] py-8 md:py-12">
+    <div class="mx-auto w-[92%] max-w-[1440px] py-8 sm:w-[94%] md:py-12">
       <h2 class="mb-4 text-4xl font-extrabold tracking-[-0.04em] md:text-6xl">
         Let's talk access security
       </h2>
@@ -13,7 +13,7 @@
           <div class="mb-2 text-xs font-bold uppercase tracking-[0.08em] text-[#D9B270] md:text-sm">
             EMAIL
           </div>
-          <a href="mailto:sksohelakram@gmail.com" class="text-xl text-white hover:underline md:text-3xl">
+          <a href="mailto:sksohelakram@gmail.com" class="break-words text-xl text-white hover:underline md:text-3xl">
             sksohelakram@gmail.com
           </a>
         </div>

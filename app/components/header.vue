@@ -1,6 +1,6 @@
 <template>
   <header class="bg-white">
-    <div class="mx-auto flex w-[92%] max-w-[1200px] items-center justify-between border-b border-[#E2E5EC] px-2 py-3 md:px-4">
+    <div class="mx-auto flex w-[92%] max-w-[1440px] items-center justify-between border-b border-[#E2E5EC] py-3 sm:w-[94%]">
       <div class="flex items-center gap-2">
         <img src="/sohel-favicon.png" alt="favicon" class="h-5 w-5 md:h-6 md:w-6" />
         <h6 class="primary-text text-sm font-semibold md:text-base">Sohel Akram</h6>
@@ -10,8 +10,8 @@
       </button>
     </div>
 
-    <div class="site-background mx-auto grid w-[92%] max-w-[1200px] gap-4 py-4 md:gap-5 lg:grid-cols-12">
-      <div class="flex min-h-[240px] flex-col justify-between rounded-[20px] bg-[#0D2B63] p-5 text-white lg:col-span-5">
+    <div class="site-background mx-auto grid w-[92%] max-w-[1440px] gap-4 py-4 sm:w-[94%] md:gap-5 lg:grid-cols-12">
+      <div class="flex min-w-0 min-h-[240px] flex-col justify-between rounded-[20px] bg-[#0D2B63] p-5 text-white lg:col-span-5">
         <div>
           <img src="/sohel-favicon.png" alt="favicon" class="h-16 w-16 md:h-20 md:w-20" />
         </div>
@@ -22,7 +22,7 @@
         <hr class="mt-4 border-white/20" />
       </div>
 
-      <div class="lg:col-span-7 lg:py-2">
+      <div class="min-w-0 lg:col-span-7 lg:py-2">
         <span class="skill-group-labels mb-2 block text-[10px] font-medium md:text-xs">
           // CyberArk Defender – PAM certified
         </span>
@@ -34,9 +34,9 @@
           production environments for TCS, Amdocs and IBM.
         </p>
 
-        <div class="secondary-text mb-5 flex flex-col gap-2 text-xs md:flex-row md:items-center md:gap-4 md:text-sm">
-          <div>📍 Pune, India</div>
-          <div>✉ sksohelakram@gmail.com</div>
+        <div class="secondary-text mb-5 flex flex-col gap-2 text-xs md:flex-row md:flex-wrap md:items-center md:gap-4 md:text-sm">
+          <div><i class="fa-solid fa-map-pin"></i> Pune, India</div>
+          <div><i class="fa-regular fa-envelope"></i> sksohelakram@gmail.com</div>
         </div>
 
         <div class="grid gap-2 sm:grid-cols-2">

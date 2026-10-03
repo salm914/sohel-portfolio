@@ -1,10 +1,10 @@
 <template>
   <section class="site-background py-6">
-    <div class="mx-auto w-[92%] max-w-[1200px]">
+    <div class="mx-auto w-[92%] max-w-[1440px] sm:w-[94%]">
       <h1 class="primary-text mb-4 text-3xl font-bold md:text-4xl">Skills</h1>
 
       <div class="grid gap-4 md:grid-cols-2">
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">PAM Platforms</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">CyberArk</span>
@@ -13,7 +13,7 @@
           </div>
         </div>
 
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">Directory &amp; cloud</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">Active Directory</span>
@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">Operating systems</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">RHEL</span>
@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">Databases</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">Oracle</span>
@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">ITSM</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">ServiceNow</span>
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="primary-card font-semibold">
+        <div class="primary-card min-w-0 font-semibold">
           <span class="skill-group-labels m-2 block text-xs">Controls</span>
           <div class="m-2 flex flex-wrap gap-2">
             <span class="secondary-card px-3 py-1 text-sm">RBAC</span>
